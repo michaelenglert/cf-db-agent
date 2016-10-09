@@ -2,8 +2,7 @@
 ## Prepare
 1. Download the DB Agent you want to use by `./get-agent.sh <Portal User> <Agent Version X.X.X.X>`
 2. [Alter the configuration as per documentation](https://docs.appdynamics.com/display/latest/Installing+the+Database+Agent)
-
-⋅⋅* Change the `conf/controller-info.xml`
+  * Change the `conf/controller-info.xml`
 
 ## Deploy
 
