@@ -7,8 +7,7 @@
 ## Deploy
 
 1. `cf push <APP Name>`
-
-The `<APP Name>` will also be the DB Agent Name within AppDynamics as it takes `application_name` from `VCAP_APPLICATION`
+  * The `<APP Name>` will also be the DB Agent Name within AppDynamics as it takes `application_name` from `VCAP_APPLICATION`
 
 ## Clean
 
