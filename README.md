@@ -4,7 +4,7 @@ To deploy the Application to CloudFoundry the [Dist Zip Container](https://githu
 
 ## Prepare
 1. Download the DB Agent you want to use
-  * by `./get-agent.sh <Portal User> <Agent Version X.X.X.X>`
+  * by `./get-agent.sh <Portal User> <Agent Version X.X.X.X>` (Will Prompt for Password)
   * by downloading manually and unzipping to this directory
 2. [Alter the configuration as per documentation](https://docs.appdynamics.com/display/latest/Installing+the+Database+Agent)
   * Change `conf/controller-info.xml`
