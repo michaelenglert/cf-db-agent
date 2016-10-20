@@ -11,8 +11,9 @@ To deploy the Application to CloudFoundry the [Dist Zip Container](https://githu
 
 ## Deploy
 
-1. `cf push <Application Name>`
-  * The `<Application Name>` will also be the DB Agent Name within AppDynamics as it takes `application_name` from `VCAP_APPLICATION`
+1. Deploy the Agent to CloudFoundry
+  * by `cf push <DB Agent Name>`
+  * The `<DB Agent Name>` will also be the DB Agent Name within AppDynamics as it takes `application_name` from `VCAP_APPLICATION`
 
 ## Clean
 
